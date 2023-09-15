@@ -93,8 +93,9 @@ class Screen {
             cyanBg: '\x1b[46m',
             whiteBg: '\x1b[47m',
             magentaBg: '\x1b[45m',
+            correctYellowBg: '\u001b[43m'
         }
-
+        console.log(color);
         let code = colorCodes[color + 'Bg'];
 
         if (!code) {
